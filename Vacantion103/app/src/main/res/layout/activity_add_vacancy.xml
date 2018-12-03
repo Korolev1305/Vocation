@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/companyId_vacancy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Company Id" />
+
+
+    <EditText
+        android:id="@+id/employmenttype_vacancy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Employment Type"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Salary"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/conditions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Conditions"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/requirements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Requirements"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/vacancytypeId_vacancy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Vacancy Type Id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Experience"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/save_vacancy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onSaveClick"
+        android:text="Save" />
+</LinearLayout>

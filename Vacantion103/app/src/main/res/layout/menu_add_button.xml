@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".VacancyListActivity"
+    android:layout_height="1.0dp"
+    android:layout_width="1.0dp">
+
+    <item
+        android:id="@+id/action_add_address"
+        android:title="Add address"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_company"
+        android:title="Add company"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_vacancy"
+        android:title="Add vacancy"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_vacancytype"
+        android:title="Add vacancytype"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_vacancyskillsjoin"
+        android:title="Add vacancyskillsjoin"
+        android:showAsAction="always"/>
+    <item
+    android:id="@+id/action_add_skills"
+    android:title="Add skills"
+    android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_employmenttype"
+        android:title="Add employment type"
+        android:showAsAction="always"/>
+</menu>
